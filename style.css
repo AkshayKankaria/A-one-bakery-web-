@@ -33,7 +33,7 @@ header .logo{
     left: 10%;
     width: 250px;
     background: #282828;
-    height: 350px;
+    height: 320px;
     transition: 1s linear;
 
 }
@@ -176,10 +176,10 @@ header section .content .price_order a{
 }
 header section .cards{
     width: 95%;
-    height: 130px;
-    border: 1px solid black;
+    height: 126px;
+    /* border: 1px solid black; */
     position: relative;
-    top: 20%;
+    top: 16%;
     padding-left: 30px;
     display: flex;
     align-items: center;
@@ -241,4 +241,39 @@ header section .cards .card .rate_cart{
 header section .cards .card .rate_cart h6{
     font-size: 12px;
 
+}
+header section .social{
+    position: relative;
+    width: 100%;
+    /* border: 1px solid black; */
+    top: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 1s linear;
+
+}
+header section .social .btns{
+    margin-left: 30px;
+}
+header section .social .btns .bi{
+    font-size: 13px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+header section .social .btns .bi:hover{
+    color: rgb(0,0,0,.5);
+}
+header section .social .icons{
+   display: flex;
+   align-items: center;
+}
+header section .social .icons a{
+    font-size: 12px;
+    margin-left: 10px;
+    color: #282828;
+    transition: .3s linear;
+}
+header section .social .icons a:hover{
+    color: black;
 }
