@@ -26,6 +26,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
+    transition: 1s linear;
 }
 header .logo{
     position: absolute;
@@ -277,3 +278,11 @@ header section .social .icons a{
 header section .social .icons a:hover{
     color: black;
 }
+@media screen and (max-width: 1260px;){
+    header{
+        width: 83%;
+
+    }
+}
+
+    
